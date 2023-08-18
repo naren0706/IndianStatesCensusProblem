@@ -25,9 +25,6 @@ namespace IndianStatesCensusProblemTest
             {
                 Assert.AreEqual(ex.Message, "File extension incorrect");
             }
-
-
-
         }
         [Test]
         public void GivenStateCensusNoData_WhenAnalysed_ShouldReturnException()
